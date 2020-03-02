@@ -1,0 +1,130 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 100%;
+}
+body {
+	height: 100%;
+  	background: url("Wallpaper.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+	
+	width: 100%;
+	margin: 50px auto 0px;
+	color: white;
+	background: black;
+	text-align: left;
+	border: 0px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 0px 0px 0px 0px;
+	padding: 10px;
+	opacity: 0.5;
+}
+ .content {
+	
+	min-height: 100%;
+	width: 100%;
+	margin: 0px auto;
+	border: 0px solid black;
+	border-radius: 0px 0px 0px 0px;
+
+
+}
+
+.images form
+{
+	
+	max-width: 600px;
+	align-content: left;
+	align-items: left;
+
+}
+.comments{
+	box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.3);
+	width: 600px;
+	color: white;
+	text-align: left;
+	background-color: rgba(255,255,255,0.3);
+
+
+
+}
+.username
+{
+	box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.3);
+	width: 600px;
+	color: white;
+	text-align: left;
+	background-color: rgba(255,255,255,0.3);
+}
+.delete
+{
+	box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.3);
+	width: 600px;
+	color: white;
+	text-align: right;
+	background-color: rgba(255,255,255,0.3);
+}
+.top_side
+{
+	box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.3);
+}
+.images img
+{
+    max-width: 600px;
+    height: auto;
+	min-height: 100%;
+	width: 100%;
+	//border: 2px solid white;
+	align-content: center;
+	box-shadow: 0px 0px 2px 2px rgba(255,255,255,0.3);
+	
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: black;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
